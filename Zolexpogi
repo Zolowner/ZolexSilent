@@ -1,0 +1,27 @@
+getgenv().Silent = {
+    Settings = {
+        Enabled = true,
+        AimPart = "HumanoidRootPart",
+        Prediction = 0.166651,
+        WallCheck = true,
+        Visualize = true,
+        AutoPrediction = true,
+    },
+    FOV = {
+        Enabled = true,
+        Size = 34,
+        Filled = false,
+        Thickness = 0.68,
+        Transparency = 0.9,
+        Color = Color3.fromRGB(255,255,255),
+    },
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CyberPlaysYT/Aura-x-update/main/Aura%20x%20updated", true))()
+
+game.StarterGui:SetCore(
+    "SendNotification",
+    {
+        Title = "ZOLEX ON TOP",
+        Text = "ZOLEX silent aim"
+    }
+)
