@@ -12,7 +12,7 @@ getgenv().Silent = {
         Size = 34,
         Filled = false,
         Thickness = 0.68,
-        Transparency = 0.9,
+        Transparency = 0.0,
         Color = Color3.fromRGB(255,255,255),
     },
 }
