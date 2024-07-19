@@ -35,10 +35,10 @@ getgenv().Settings = {
     ["FOV"] = {
         ["Enabled"] = true,
         ["Size"] = 28,
-        ["Filled"] = true,
+        ["Filled"] = false,
         ["Thickness"] = 0.70,
         ["Transparency"] = 0.1,
-        ["Color"] = Color3.fromRGB(123,123,123),
+        ["Color"] = Color3.fromRGB(123,0,0),
     },
     ["Camlock"] = {
         ["Enabled"] = false,
@@ -80,7 +80,7 @@ getgenv().Settings = {
         ["NoDelay"] = true,
         ["AutoReload"] = false,
         ["AutoAir"] = {
-            ["Enabled"] = false,
+            ["Enabled"] = true,
             ["Interval"] = 0.5,
         },
         ["CMDS"] = {
@@ -93,7 +93,7 @@ getgenv().Settings = {
         ["Value"] = 1,
     },
     ["Resolvers"] = {  --entirely not
-        ["Enabled"] = false,
+        ["Enabled"] = true,
         ["AutoDetect"] = false,
         ["Type"] = "Recalculator",
     },
@@ -124,6 +124,6 @@ getgenv().Settings = {
 loadstring(game:HttpGet("https://raw.githubusercontent.com/bobbbb-b/B/main/77_SJQ0ZC.lua"))()
 
 game.StarterGui:SetCore("SendNotification", {
-    Title = "Zolex",
+    Title = "ZolexSilent",
     Text = "Zolex on top"
 })
